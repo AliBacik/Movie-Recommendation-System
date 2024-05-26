@@ -58,7 +58,7 @@ print("Gerekli kütüphaneler yüklendi.")
 
 """SQL BAĞLANTISI"""
 
-DATABASE_URI = 'postgresql+psycopg2://jmmbsbkmeuckih:d96b43e0c9cc786775c616abd0f3f84f5ba3720ff38881f01d2d617e4889b913@ec2-52-31-161-46.eu-west-1.compute.amazonaws.com/d6cfnvoqmk3rqr'
+DATABASE_URI = ' '
 
 engine = create_engine(DATABASE_URI)
 Session = sessionmaker(bind=engine)
@@ -187,7 +187,7 @@ model = SentenceTransformer('paraphrase-distilroberta-base-v1')
 
 #ÖNCEDEN VAR İSE DİREKT YÜKLEYEBİLİRİZ
 
-des_embeddings = np.load('C:/Users/bckal/Desktop/Project 491/pythonProject/embedding_array.npy')
+des_embeddings = np.load('C:/Users/embedding_array.npy')
 
 def recommend(query):
     #yerleştirmelerle kosinus benzerliği hesaplama
