@@ -4,4 +4,6 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-v4.0-blue?logo=typescript)
 
 
-Collaborative Filtering and Content based filtering using Transformer
+Collaborative Filtering and Content based filtering using Transformer.
+
+**The script is made for our database and pretrained model. You have to modify it for your own data and traint it before use.**
