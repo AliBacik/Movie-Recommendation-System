@@ -6,4 +6,4 @@
 
 Collaborative Filtering and Content based filtering using Transformer.
 
-**The script is made for our database and pretrained model. You have to modify it for your own data and traint it before use.**
+**The script is made for our database and pretrained model. You have to modify it for your own data and train it before use.**
